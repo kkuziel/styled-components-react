@@ -97,7 +97,7 @@ const Card = ({ theme }) => {
         <HeadingWrapper>
           <Heading bottomColor={bottomColor} topColor={topColor} />
         </HeadingWrapper>
-        <Logo alt="styled-components logo" src="/images/sc-logo.png" />
+        <Logo alt="styled-components logo" src="images/sc-logo.png" />
         <Details>
           <span>Automatic critical CSS </span>
           <span>No class name bugs</span>

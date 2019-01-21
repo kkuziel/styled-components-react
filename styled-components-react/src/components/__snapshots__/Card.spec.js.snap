@@ -348,11 +348,11 @@ exports[`renders correct HTML 1`] = `
                   </HeadingWrapper>
                   <Logo
                     alt="styled-components logo"
-                    src="/images/sc-logo.png"
+                    src="images/sc-logo.png"
                   >
                     <StyledLogo
                       alt="styled-components logo"
-                      src="/images/sc-logo.png"
+                      src="images/sc-logo.png"
                     >
                       <StyledComponent
                         alt="styled-components logo"
@@ -392,12 +392,12 @@ exports[`renders correct HTML 1`] = `
                           }
                         }
                         forwardedRef={null}
-                        src="/images/sc-logo.png"
+                        src="images/sc-logo.png"
                       >
                         <img
                           alt="styled-components logo"
                           className="c4"
-                          src="/images/sc-logo.png"
+                          src="images/sc-logo.png"
                         />
                       </StyledComponent>
                     </StyledLogo>
