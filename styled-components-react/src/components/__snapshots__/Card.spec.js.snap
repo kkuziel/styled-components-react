@@ -1,0 +1,958 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correct HTML 1`] = `
+.c8 {
+  display: inline-block;
+  width: 20rem;
+  padding: .5rem 0;
+  margin: .5rem 1rem;
+  border-width: .2rem;
+  border-radius: .3rem;
+  border-style: solid;
+  border-image: initial;
+  cursor: pointer;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+  border-color: #fff;
+  background: linear-gradient(to top right,rgb(219,112,147),rgb(218,163,87));
+  text-transform: uppercase;
+}
+
+.c12 {
+  display: inline-block;
+  width: 20rem;
+  padding: .5rem 0;
+  margin: .5rem 1rem;
+  border-width: .2rem;
+  border-radius: .3rem;
+  border-style: solid;
+  border-image: initial;
+  cursor: pointer;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: palevioletred;
+  border-color: #fff;
+  background: #fff;
+  text-transform: uppercase;
+}
+
+.c13 {
+  display: inline-block;
+  width: 20rem;
+  padding: .5rem 0;
+  margin: .5rem 1rem;
+  border-width: .2rem;
+  border-radius: .3rem;
+  border-style: solid;
+  border-image: initial;
+  cursor: pointer;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.c13:hover {
+  background: rgba(20,20,20,0.1);
+}
+
+.c5 {
+  list-style: none;
+  padding: 0 4rem;
+  margin: 4rem auto .6rem;
+}
+
+.c6 {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 1rem;
+  color: #222;
+}
+
+.c6:not(:last-child) {
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.c4 {
+  position: absolute;
+  top: 5rem;
+  left: 30%;
+  width: 40%;
+  -webkit-animation: drfsvC 4s linear infinite;
+  animation: drfsvC 4s linear infinite;
+  background-image: linear-gradient(to top right,rgb(219,112,147),rgb(218,163,87));
+}
+
+.c2 {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: .5rem;
+  overflow: hidden;
+  box-shadow: .5rem 1rem 4rem rgba(0,0,0,0.2);
+  background: #fff;
+}
+
+.c10 {
+  height: 100%;
+  width: 100%;
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: .5rem;
+  overflow: hidden;
+  box-shadow: .5rem 1rem 4rem rgba(0,0,0,0.2);
+  background: #fff;
+  -webkit-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background: linear-gradient(to top right,rgb(219,112,147),rgb(218,163,87));
+}
+
+.c0 {
+  width: 26rem;
+  height: 47rem;
+  -webkit-perspective: 150rem;
+  -moz-perspective: 150rem;
+  -ms-perspective: 150rem;
+  perspective: 150rem;
+  position: relative;
+}
+
+.c3 {
+  margin: -.1rem;
+  width: calc(100% + .2rem);
+  height: 13.2rem;
+}
+
+.c11 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  padding: .1rem;
+}
+
+.c7 {
+  text-align: center;
+}
+
+@media (min-width:1024px) {
+  .c0 {
+    height: 44rem;
+  }
+
+  .c0:hover .c1 {
+    -webkit-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+  }
+
+  .c0:hover .c9 {
+    -webkit-transform: rotateY(0);
+    -ms-transform: rotateY(0);
+    transform: rotateY(0);
+  }
+}
+
+@media (min-width:1024px) {
+  .c7 {
+    display: none;
+  }
+}
+
+<ThemeProvider
+  theme={
+    Object {
+      "mode": "light",
+    }
+  }
+>
+  <WithTheme(Card)
+    theme={
+      Object {
+        "mode": "light",
+      }
+    }
+  >
+    <Card
+      theme={
+        Object {
+          "mode": "light",
+        }
+      }
+    >
+      <CardWrapper>
+        <StyledComponent
+          forwardedComponent={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "attrs": Array [],
+              "componentStyle": ComponentStyle {
+                "componentId": "CardWrapper-sc-1sef1id-2",
+                "isStatic": true,
+                "lastClassName": "c0",
+                "rules": Array [
+                  "width:26rem;height:47rem;perspective:150rem;position:relative;@media ",
+                  "(min-width: 1024px)",
+                  "{height:44rem;&:hover ",
+                  ".c1",
+                  "{transform:rotateY(-180deg);}&:hover ",
+                  ".c9",
+                  "{transform:rotateY(0);}}",
+                ],
+              },
+              "displayName": "CardWrapper",
+              "foldedComponentIds": Array [],
+              "render": [Function],
+              "styledComponentId": "CardWrapper-sc-1sef1id-2",
+              "target": "div",
+              "toString": [Function],
+              "warnTooManyClasses": [Function],
+              "withComponent": [Function],
+            }
+          }
+          forwardedRef={null}
+        >
+          <div
+            className="c0"
+          >
+            <SideFront>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "c1",
+                      "isStatic": true,
+                      "lastClassName": "c2",
+                      "rules": Array [
+                        "height:100%;width:100%;transition:all 1s ease;position:absolute;top:0;left:0;backface-visibility:hidden;border-radius:.5rem;overflow:hidden;box-shadow:.5rem 1rem 4rem ",
+                        "rgba(0, 0, 0, 0.2)",
+                        ";background:",
+                        "#fff",
+                        ";",
+                        ";",
+                      ],
+                    },
+                    "displayName": "SideFront",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "c1",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <div
+                  className="c1 c2"
+                >
+                  <HeadingWrapper>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "HeadingWrapper-sc-1sef1id-3",
+                            "isStatic": true,
+                            "lastClassName": "c3",
+                            "rules": Array [
+                              "margin:-.1rem;width:calc(100% + .2rem);height:13.2rem;",
+                            ],
+                          },
+                          "displayName": "HeadingWrapper",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "HeadingWrapper-sc-1sef1id-3",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="c3"
+                      >
+                        <Heading
+                          bottomColor="rgb(219, 112, 147)"
+                          topColor="rgb(218, 163, 87)"
+                        >
+                          <svg
+                            height="100%"
+                            preserveAspectRatio="none"
+                            viewBox="0 0 100 100"
+                            width="100%"
+                          >
+                            <defs>
+                              <linearGradient
+                                id="heading-linear-gradient"
+                                x1="-1%"
+                                x2="101%"
+                                y1="100%"
+                                y2="0%"
+                              >
+                                <stop
+                                  offset="0%"
+                                  style={
+                                    Object {
+                                      "stopColor": "rgb(219, 112, 147)",
+                                    }
+                                  }
+                                />
+                                <stop
+                                  offset="100%"
+                                  style={
+                                    Object {
+                                      "stopColor": "rgb(218, 163, 87)",
+                                    }
+                                  }
+                                />
+                              </linearGradient>
+                            </defs>
+                            <g>
+                              <path
+                                d="M0 0 L0 100 L100 80 L100 0 Z"
+                                fill="url(#heading-linear-gradient)"
+                              />
+                            </g>
+                          </svg>
+                        </Heading>
+                      </div>
+                    </StyledComponent>
+                  </HeadingWrapper>
+                  <Logo
+                    alt="styled-components logo"
+                    src="/images/sc-logo.png"
+                  >
+                    <StyledLogo
+                      alt="styled-components logo"
+                      src="/images/sc-logo.png"
+                    >
+                      <StyledComponent
+                        alt="styled-components logo"
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "StyledLogo-sc-78p0uj-0",
+                              "isStatic": false,
+                              "lastClassName": "c4",
+                              "rules": Array [
+                                "position:absolute;top:5rem;left:30%;width:40%;animation:",
+                                Keyframes {
+                                  "id": "sc-keyframes-drfsvC",
+                                  "inject": [Function],
+                                  "name": "drfsvC",
+                                  "rules": Array [
+                                    "@-webkit-keyframes drfsvC{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}25%{-webkit-transform:rotate(5deg);-ms-transform:rotate(5deg);transform:rotate(5deg);}50%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}75%{-webkit-transform:rotate(-5deg);-ms-transform:rotate(-5deg);transform:rotate(-5deg);}}",
+                                    "@keyframes drfsvC{0%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}25%{-webkit-transform:rotate(5deg);-ms-transform:rotate(5deg);transform:rotate(5deg);}50%{-webkit-transform:rotate(0deg);-ms-transform:rotate(0deg);transform:rotate(0deg);}75%{-webkit-transform:rotate(-5deg);-ms-transform:rotate(-5deg);transform:rotate(-5deg);}}",
+                                  ],
+                                  "toString": [Function],
+                                },
+                                " 4s linear infinite;background-image:",
+                                [Function],
+                                ";",
+                              ],
+                            },
+                            "displayName": "StyledLogo",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "StyledLogo-sc-78p0uj-0",
+                            "target": "img",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                        src="/images/sc-logo.png"
+                      >
+                        <img
+                          alt="styled-components logo"
+                          className="c4"
+                          src="/images/sc-logo.png"
+                        />
+                      </StyledComponent>
+                    </StyledLogo>
+                  </Logo>
+                  <Details>
+                    <DetailsWrapper>
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "DetailsWrapper-sc-12vae12-0",
+                              "isStatic": true,
+                              "lastClassName": "c5",
+                              "rules": Array [
+                                "list-style:none;padding:0 4rem;margin:4rem auto .6rem;",
+                              ],
+                            },
+                            "displayName": "DetailsWrapper",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "DetailsWrapper-sc-12vae12-0",
+                            "target": "ul",
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+                      >
+                        <ul
+                          className="c5"
+                        >
+                          <Item
+                            key="Automatic critical CSS "
+                          >
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "Item-sc-12vae12-1",
+                                    "isStatic": true,
+                                    "lastClassName": "c6",
+                                    "rules": Array [
+                                      "text-align:center;font-size:1.4rem;padding:1rem;color:",
+                                      "#222",
+                                      ";&:not(:last-child){border-bottom:1px solid ",
+                                      "rgba(0, 0, 0, 0.2)",
+                                      ";}",
+                                    ],
+                                  },
+                                  "displayName": "Item",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "Item-sc-12vae12-1",
+                                  "target": "li",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <li
+                                className="c6"
+                              >
+                                <span>
+                                  Automatic critical CSS 
+                                </span>
+                              </li>
+                            </StyledComponent>
+                          </Item>
+                          <Item
+                            key="No class name bugs"
+                          >
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "Item-sc-12vae12-1",
+                                    "isStatic": true,
+                                    "lastClassName": "c6",
+                                    "rules": Array [
+                                      "text-align:center;font-size:1.4rem;padding:1rem;color:",
+                                      "#222",
+                                      ";&:not(:last-child){border-bottom:1px solid ",
+                                      "rgba(0, 0, 0, 0.2)",
+                                      ";}",
+                                    ],
+                                  },
+                                  "displayName": "Item",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "Item-sc-12vae12-1",
+                                  "target": "li",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <li
+                                className="c6"
+                              >
+                                <span>
+                                  No class name bugs
+                                </span>
+                              </li>
+                            </StyledComponent>
+                          </Item>
+                          <Item
+                            key="Easier deletion of CSS"
+                          >
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "Item-sc-12vae12-1",
+                                    "isStatic": true,
+                                    "lastClassName": "c6",
+                                    "rules": Array [
+                                      "text-align:center;font-size:1.4rem;padding:1rem;color:",
+                                      "#222",
+                                      ";&:not(:last-child){border-bottom:1px solid ",
+                                      "rgba(0, 0, 0, 0.2)",
+                                      ";}",
+                                    ],
+                                  },
+                                  "displayName": "Item",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "Item-sc-12vae12-1",
+                                  "target": "li",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <li
+                                className="c6"
+                              >
+                                <span>
+                                  Easier deletion of CSS
+                                </span>
+                              </li>
+                            </StyledComponent>
+                          </Item>
+                          <Item
+                            key="Simple dynamic styling"
+                          >
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "Item-sc-12vae12-1",
+                                    "isStatic": true,
+                                    "lastClassName": "c6",
+                                    "rules": Array [
+                                      "text-align:center;font-size:1.4rem;padding:1rem;color:",
+                                      "#222",
+                                      ";&:not(:last-child){border-bottom:1px solid ",
+                                      "rgba(0, 0, 0, 0.2)",
+                                      ";}",
+                                    ],
+                                  },
+                                  "displayName": "Item",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "Item-sc-12vae12-1",
+                                  "target": "li",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <li
+                                className="c6"
+                              >
+                                <span>
+                                  Simple dynamic styling
+                                </span>
+                              </li>
+                            </StyledComponent>
+                          </Item>
+                          <Item
+                            key="Painless maintenance"
+                          >
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "Item-sc-12vae12-1",
+                                    "isStatic": true,
+                                    "lastClassName": "c6",
+                                    "rules": Array [
+                                      "text-align:center;font-size:1.4rem;padding:1rem;color:",
+                                      "#222",
+                                      ";&:not(:last-child){border-bottom:1px solid ",
+                                      "rgba(0, 0, 0, 0.2)",
+                                      ";}",
+                                    ],
+                                  },
+                                  "displayName": "Item",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "Item-sc-12vae12-1",
+                                  "target": "li",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <li
+                                className="c6"
+                              >
+                                <span>
+                                  Painless maintenance
+                                </span>
+                              </li>
+                            </StyledComponent>
+                          </Item>
+                          <Item
+                            key="Automatic vendor prefixing"
+                          >
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "Item-sc-12vae12-1",
+                                    "isStatic": true,
+                                    "lastClassName": "c6",
+                                    "rules": Array [
+                                      "text-align:center;font-size:1.4rem;padding:1rem;color:",
+                                      "#222",
+                                      ";&:not(:last-child){border-bottom:1px solid ",
+                                      "rgba(0, 0, 0, 0.2)",
+                                      ";}",
+                                    ],
+                                  },
+                                  "displayName": "Item",
+                                  "foldedComponentIds": Array [],
+                                  "render": [Function],
+                                  "styledComponentId": "Item-sc-12vae12-1",
+                                  "target": "li",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                            >
+                              <li
+                                className="c6"
+                              >
+                                <span>
+                                  Automatic vendor prefixing
+                                </span>
+                              </li>
+                            </StyledComponent>
+                          </Item>
+                        </ul>
+                      </StyledComponent>
+                    </DetailsWrapper>
+                  </Details>
+                  <ButtonsBottom>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "ButtonsBottom-sc-1sef1id-5",
+                            "isStatic": true,
+                            "lastClassName": "c7",
+                            "rules": Array [
+                              "text-align:center;@media ",
+                              "(min-width: 1024px)",
+                              "{display:none;}",
+                            ],
+                          },
+                          "displayName": "ButtonsBottom",
+                          "foldedComponentIds": Array [],
+                          "render": [Function],
+                          "styledComponentId": "ButtonsBottom-sc-1sef1id-5",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="c7"
+                      >
+                        <LinkButton
+                          href="https://www.styled-components.com/docs/"
+                          target="_blank"
+                          variant="transparentDark"
+                        >
+                          <StyledLink
+                            href="https://www.styled-components.com/docs/"
+                            target="_blank"
+                            variant="transparentDark"
+                          >
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "StyledLink-sc-199ta5q-0",
+                                    "isStatic": false,
+                                    "lastClassName": "c13",
+                                    "rules": Array [
+                                      "display:inline-block;width:20rem;padding:.5rem 0;margin:.5rem 1rem;border-width:.2rem;border-radius:.3rem;border-style:solid;border-image:initial;cursor:pointer;text-align:center;text-decoration:none;font-size:1.2rem;",
+                                      [Function],
+                                      " text-transform:uppercase;",
+                                    ],
+                                  },
+                                  "displayName": "StyledLink",
+                                  "foldedComponentIds": Array [
+                                    "CustomLink-sc-121bv1w-1",
+                                  ],
+                                  "render": [Function],
+                                  "styledComponentId": "StyledLink-sc-199ta5q-0",
+                                  "target": "a",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              href="https://www.styled-components.com/docs/"
+                              target="_blank"
+                              variant="transparentDark"
+                            >
+                              <a
+                                className="c8"
+                                href="https://www.styled-components.com/docs/"
+                                target="_blank"
+                              >
+                                Documentation
+                              </a>
+                            </StyledComponent>
+                          </StyledLink>
+                        </LinkButton>
+                      </div>
+                    </StyledComponent>
+                  </ButtonsBottom>
+                </div>
+              </StyledComponent>
+            </SideFront>
+            <SideBack>
+              <StyledComponent
+                forwardedComponent={
+                  Object {
+                    "$$typeof": Symbol(react.forward_ref),
+                    "attrs": Array [],
+                    "componentStyle": ComponentStyle {
+                      "componentId": "c9",
+                      "isStatic": false,
+                      "lastClassName": "c10",
+                      "rules": Array [
+                        "height:100%;width:100%;transition:all 1s ease;position:absolute;top:0;left:0;backface-visibility:hidden;border-radius:.5rem;overflow:hidden;box-shadow:.5rem 1rem 4rem ",
+                        "rgba(0, 0, 0, 0.2)",
+                        ";background:",
+                        "#fff",
+                        ";",
+                        " transform:rotateY(180deg);background:",
+                        [Function],
+                        ";",
+                      ],
+                    },
+                    "displayName": "SideBack",
+                    "foldedComponentIds": Array [],
+                    "render": [Function],
+                    "styledComponentId": "c9",
+                    "target": "div",
+                    "toString": [Function],
+                    "warnTooManyClasses": [Function],
+                    "withComponent": [Function],
+                  }
+                }
+                forwardedRef={null}
+              >
+                <div
+                  className="c9 c10"
+                >
+                  <ButtonsCentered>
+                    <StyledComponent
+                      forwardedComponent={
+                        Object {
+                          "$$typeof": Symbol(react.forward_ref),
+                          "attrs": Array [],
+                          "componentStyle": ComponentStyle {
+                            "componentId": "ButtonsCentered-sc-1sef1id-4",
+                            "isStatic": true,
+                            "lastClassName": "c11",
+                            "rules": Array [
+                              "position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);",
+                              "padding:.1rem;",
+                            ],
+                          },
+                          "displayName": "ButtonsCentered",
+                          "foldedComponentIds": Array [
+                            "CenterElements-sc-121bv1w-0",
+                          ],
+                          "render": [Function],
+                          "styledComponentId": "ButtonsCentered-sc-1sef1id-4",
+                          "target": "div",
+                          "toString": [Function],
+                          "warnTooManyClasses": [Function],
+                          "withComponent": [Function],
+                        }
+                      }
+                      forwardedRef={null}
+                    >
+                      <div
+                        className="c11"
+                      >
+                        <LinkButton
+                          href="https://github.com/styled-components/styled-components"
+                          target="_blank"
+                          variant="default"
+                        >
+                          <StyledLink
+                            href="https://github.com/styled-components/styled-components"
+                            target="_blank"
+                            variant="default"
+                          >
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "StyledLink-sc-199ta5q-0",
+                                    "isStatic": false,
+                                    "lastClassName": "c13",
+                                    "rules": Array [
+                                      "display:inline-block;width:20rem;padding:.5rem 0;margin:.5rem 1rem;border-width:.2rem;border-radius:.3rem;border-style:solid;border-image:initial;cursor:pointer;text-align:center;text-decoration:none;font-size:1.2rem;",
+                                      [Function],
+                                      " text-transform:uppercase;",
+                                    ],
+                                  },
+                                  "displayName": "StyledLink",
+                                  "foldedComponentIds": Array [
+                                    "CustomLink-sc-121bv1w-1",
+                                  ],
+                                  "render": [Function],
+                                  "styledComponentId": "StyledLink-sc-199ta5q-0",
+                                  "target": "a",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              href="https://github.com/styled-components/styled-components"
+                              target="_blank"
+                              variant="default"
+                            >
+                              <a
+                                className="c12"
+                                href="https://github.com/styled-components/styled-components"
+                                target="_blank"
+                              >
+                                Github
+                              </a>
+                            </StyledComponent>
+                          </StyledLink>
+                        </LinkButton>
+                        <LinkButton
+                          href="https://www.styled-components.com/docs/"
+                          target="_blank"
+                          variant="transparent"
+                        >
+                          <StyledLink
+                            href="https://www.styled-components.com/docs/"
+                            target="_blank"
+                            variant="transparent"
+                          >
+                            <StyledComponent
+                              forwardedComponent={
+                                Object {
+                                  "$$typeof": Symbol(react.forward_ref),
+                                  "attrs": Array [],
+                                  "componentStyle": ComponentStyle {
+                                    "componentId": "StyledLink-sc-199ta5q-0",
+                                    "isStatic": false,
+                                    "lastClassName": "c13",
+                                    "rules": Array [
+                                      "display:inline-block;width:20rem;padding:.5rem 0;margin:.5rem 1rem;border-width:.2rem;border-radius:.3rem;border-style:solid;border-image:initial;cursor:pointer;text-align:center;text-decoration:none;font-size:1.2rem;",
+                                      [Function],
+                                      " text-transform:uppercase;",
+                                    ],
+                                  },
+                                  "displayName": "StyledLink",
+                                  "foldedComponentIds": Array [
+                                    "CustomLink-sc-121bv1w-1",
+                                  ],
+                                  "render": [Function],
+                                  "styledComponentId": "StyledLink-sc-199ta5q-0",
+                                  "target": "a",
+                                  "toString": [Function],
+                                  "warnTooManyClasses": [Function],
+                                  "withComponent": [Function],
+                                }
+                              }
+                              forwardedRef={null}
+                              href="https://www.styled-components.com/docs/"
+                              target="_blank"
+                              variant="transparent"
+                            >
+                              <a
+                                className="c13"
+                                href="https://www.styled-components.com/docs/"
+                                target="_blank"
+                              >
+                                Documentation
+                              </a>
+                            </StyledComponent>
+                          </StyledLink>
+                        </LinkButton>
+                      </div>
+                    </StyledComponent>
+                  </ButtonsCentered>
+                </div>
+              </StyledComponent>
+            </SideBack>
+          </div>
+        </StyledComponent>
+      </CardWrapper>
+    </Card>
+  </WithTheme(Card)>
+</ThemeProvider>
+`;

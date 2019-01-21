@@ -1,0 +1,70 @@
+@import '../styles/variables.css';
+
+.card {
+  width: 26rem;
+  height: 47rem;
+  perspective: 150rem;
+  position: relative;
+
+  @media (--desktop) {
+    height: 44rem;
+
+    &:hover &__side__front {
+      transform: rotateY(-180deg);
+    }
+
+    &:hover &__side__back {
+      transform: rotateY(0);
+    }
+  }
+
+  &__side {
+    height: 100%;
+    width: 100%;
+    transition: all 1s ease;
+    position: absolute;
+    top: 0;
+    left: 0;
+    backface-visibility: hidden;
+    border-radius: .5rem;
+    overflow: hidden;
+    box-shadow: .5rem 1rem 4rem var(--color-alpha-black);
+    background: var(--color-white);
+
+    &__front {
+      &__heading-wrapper {
+        margin: -.1rem;
+        width: calc(100% + .2rem);
+        height: 13.2rem;
+      }
+
+      &__buttons-bottom {
+        text-align: center;
+
+        @media (--desktop) {
+          display: none;
+        }
+      }
+    }
+
+    &__back {
+      transform: rotateY(180deg);
+
+      &--dark {
+        background: var(--gradient-dark);
+      }
+
+      &--light {
+        background: var(--gradient-light);
+      }
+
+      &__buttons-centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: .1rem;
+      }
+    }
+  }
+}

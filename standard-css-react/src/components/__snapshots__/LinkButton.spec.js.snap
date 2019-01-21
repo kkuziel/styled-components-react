@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correct link with dark theme and default variant 1`] = `
+<Component
+  href="LINK"
+  theme="dark"
+  variant="default"
+>
+  <LinkButton
+    href="LINK"
+    theme="dark"
+    variant="default"
+  >
+    <a
+      className="link-button link-button--default--dark"
+      href="LINK"
+      theme="dark"
+      variant="default"
+    >
+      TEST
+    </a>
+  </LinkButton>
+</Component>
+`;
+
+exports[`renders correct link with dark theme and transparent variant 1`] = `
+<Component
+  href="LINK"
+  theme="dark"
+  variant="transparent"
+>
+  <LinkButton
+    href="LINK"
+    theme="dark"
+    variant="transparent"
+  >
+    <a
+      className="link-button link-button--transparent--dark"
+      href="LINK"
+      theme="dark"
+      variant="transparent"
+    >
+      TEST
+    </a>
+  </LinkButton>
+</Component>
+`;
+
+exports[`renders correct link with dark theme and transparentDark variant 1`] = `
+<Component
+  href="LINK"
+  theme="dark"
+  variant="transparentDark"
+>
+  <LinkButton
+    href="LINK"
+    theme="dark"
+    variant="transparentDark"
+  >
+    <a
+      className="link-button link-button--transparentDark--dark"
+      href="LINK"
+      theme="dark"
+      variant="transparentDark"
+    >
+      TEST
+    </a>
+  </LinkButton>
+</Component>
+`;
+
+exports[`renders correct link with light theme and default variant 1`] = `
+<Component
+  href="LINK"
+  theme="light"
+  variant="default"
+>
+  <LinkButton
+    href="LINK"
+    theme="light"
+    variant="default"
+  >
+    <a
+      className="link-button link-button--default--light"
+      href="LINK"
+      theme="light"
+      variant="default"
+    >
+      TEST
+    </a>
+  </LinkButton>
+</Component>
+`;
+
+exports[`renders correct link with light theme and transparent variant 1`] = `
+<Component
+  href="LINK"
+  theme="light"
+  variant="transparent"
+>
+  <LinkButton
+    href="LINK"
+    theme="light"
+    variant="transparent"
+  >
+    <a
+      className="link-button link-button--transparent--light"
+      href="LINK"
+      theme="light"
+      variant="transparent"
+    >
+      TEST
+    </a>
+  </LinkButton>
+</Component>
+`;
+
+exports[`renders correct link with light theme and transparentDark variant 1`] = `
+<Component
+  href="LINK"
+  theme="light"
+  variant="transparentDark"
+>
+  <LinkButton
+    href="LINK"
+    theme="light"
+    variant="transparentDark"
+  >
+    <a
+      className="link-button link-button--transparentDark--light"
+      href="LINK"
+      theme="light"
+      variant="transparentDark"
+    >
+      TEST
+    </a>
+  </LinkButton>
+</Component>
+`;

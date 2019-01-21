@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dark theme renders correctly child elements  1`] = `
+.c0 {
+  list-style: none;
+  padding: 0 4rem;
+  margin: 4rem auto .6rem;
+}
+
+.c1 {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 1rem;
+  color: #222;
+}
+
+.c1:not(:last-child) {
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+<ul
+  className="c0"
+>
+  <li
+    className="c1"
+  >
+    <span>
+      TEST
+    </span>
+  </li>
+  <li
+    className="c1"
+  >
+    <span>
+      TEST2
+    </span>
+  </li>
+  <li
+    className="c1"
+  >
+    <span>
+      TEST3
+    </span>
+  </li>
+</ul>
+`;
+
+exports[`light theme renders correctly child elements  1`] = `
+.c0 {
+  list-style: none;
+  padding: 0 4rem;
+  margin: 4rem auto .6rem;
+}
+
+.c1 {
+  text-align: center;
+  font-size: 1.4rem;
+  padding: 1rem;
+  color: #222;
+}
+
+.c1:not(:last-child) {
+  border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+<ul
+  className="c0"
+>
+  <li
+    className="c1"
+  >
+    <span>
+      TEST
+    </span>
+  </li>
+  <li
+    className="c1"
+  >
+    <span>
+      TEST2
+    </span>
+  </li>
+  <li
+    className="c1"
+  >
+    <span>
+      TEST3
+    </span>
+  </li>
+</ul>
+`;

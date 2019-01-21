@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correct HTML with custom colors 1`] = `
+<svg
+  height="100%"
+  preserveAspectRatio="none"
+  viewBox="0 0 100 100"
+  width="100%"
+>
+  <defs>
+    <linearGradient
+      id="heading-linear-gradient"
+      x1="-1%"
+      x2="101%"
+      y1="100%"
+      y2="0%"
+    >
+      <stop
+        offset="0%"
+        style={
+          Object {
+            "stopColor": "#F90",
+          }
+        }
+      />
+      <stop
+        offset="100%"
+        style={
+          Object {
+            "stopColor": "#FFF",
+          }
+        }
+      />
+    </linearGradient>
+  </defs>
+  <g>
+    <path
+      d="M0 0 L0 100 L100 80 L100 0 Z"
+      fill="url(#heading-linear-gradient)"
+    />
+  </g>
+</svg>
+`;
+
+exports[`renders correct HTML with default colors 1`] = `
+<svg
+  height="100%"
+  preserveAspectRatio="none"
+  viewBox="0 0 100 100"
+  width="100%"
+>
+  <defs>
+    <linearGradient
+      id="heading-linear-gradient"
+      x1="-1%"
+      x2="101%"
+      y1="100%"
+      y2="0%"
+    >
+      <stop
+        offset="0%"
+        style={
+          Object {
+            "stopColor": "#000",
+          }
+        }
+      />
+      <stop
+        offset="100%"
+        style={
+          Object {
+            "stopColor": "#FFF",
+          }
+        }
+      />
+    </linearGradient>
+  </defs>
+  <g>
+    <path
+      d="M0 0 L0 100 L100 80 L100 0 Z"
+      fill="url(#heading-linear-gradient)"
+    />
+  </g>
+</svg>
+`;

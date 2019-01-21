@@ -1,0 +1,8 @@
+{
+  "name": "styled-components-react",
+  "version": "1.0.0",
+  "description": "The Purpose of this repo is to show usage styled-components in react app and compare it to standard css approach.",
+  "main": "index.html",
+  "author": "krzysztofkuziel.pl",
+  "license": "MIT"
+}

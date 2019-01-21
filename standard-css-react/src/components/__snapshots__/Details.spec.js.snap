@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dark theme renders correctly child elements  1`] = `
+<Details>
+  <ul
+    className="details"
+  >
+    <li
+      className="details__item"
+      key="TEST"
+    >
+      <span>
+        TEST
+      </span>
+    </li>
+    <li
+      className="details__item"
+      key="TEST2"
+    >
+      <span>
+        TEST2
+      </span>
+    </li>
+    <li
+      className="details__item"
+      key="TEST3"
+    >
+      <span>
+        TEST3
+      </span>
+    </li>
+  </ul>
+</Details>
+`;
+
+exports[`light theme renders correctly child elements  1`] = `
+<Details>
+  <ul
+    className="details"
+  >
+    <li
+      className="details__item"
+      key="TEST"
+    >
+      <span>
+        TEST
+      </span>
+    </li>
+    <li
+      className="details__item"
+      key="TEST2"
+    >
+      <span>
+        TEST2
+      </span>
+    </li>
+    <li
+      className="details__item"
+      key="TEST3"
+    >
+      <span>
+        TEST3
+      </span>
+    </li>
+  </ul>
+</Details>
+`;

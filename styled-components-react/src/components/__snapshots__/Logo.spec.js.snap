@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dark theme renders correct HTML 1`] = `
+.c0 {
+  position: absolute;
+  top: 5rem;
+  left: 30%;
+  width: 40%;
+  -webkit-animation: drfsvC 4s linear infinite;
+  animation: drfsvC 4s linear infinite;
+  background-image: linear-gradient(to top right,#667db6,#0082c8,#667db6);
+}
+
+<img
+  alt="TEST_IMAGE"
+  className="c0"
+  src="TEST_URL"
+/>
+`;
+
+exports[`light theme renders correct HTML 1`] = `
+.c0 {
+  position: absolute;
+  top: 5rem;
+  left: 30%;
+  width: 40%;
+  -webkit-animation: drfsvC 4s linear infinite;
+  animation: drfsvC 4s linear infinite;
+  background-image: linear-gradient(to top right,rgb(219,112,147),rgb(218,163,87));
+}
+
+<img
+  alt="TEST_IMAGE"
+  className="c0"
+  src="TEST_URL"
+/>
+`;

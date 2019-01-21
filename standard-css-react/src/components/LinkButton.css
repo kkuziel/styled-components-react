@@ -1,0 +1,58 @@
+@import '../styles/variables.css';
+
+.link-button {
+  display: inline-block;
+  width: 20rem;
+  padding: .5rem 0;
+  margin: .5rem 1rem;
+  border-width: .2rem;
+  border-radius: .3rem;
+  border-style: solid;
+  border-image: initial;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+
+  &--default--light {
+    color: var(--color-palevioletred);
+    border-color: var(--color-white);
+    background: var(--color-white);
+  }
+
+  &--default--dark {
+    color: var(--color-black);
+    border-color: var(--color-white);
+    background: var(--color-white);
+  }
+
+  &--transparent--light {
+    color: var(--color-white);
+
+    &:hover {
+      background: var(--color-alpha-grey);
+    }
+  }
+
+  &--transparent--dark {
+    color: var(--color-white);
+    border-color: var(--color-white);
+
+    &:hover {
+      background: var(--color-grey);
+    }
+  }
+
+  &--transparentDark--light {
+    color: var(--color-white);
+    border-color: var(--color-white);
+    background: var(--gradient-light);
+  }
+
+  &--transparentDark--dark {
+    color: var(--color-white);
+    border-color: var(--color-white);
+    background: var(--gradient-dark);
+  }
+}

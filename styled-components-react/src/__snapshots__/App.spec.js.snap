@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<ThemeProvider
+  theme={
+    Object {
+      "mode": "light",
+    }
+  }
+>
+  <GlobalStyleComponent />
+  <GlobalStyleComponent />
+  <CustomFlex>
+    <WithTheme(Card) />
+    <ThemeSwitcher
+      onThemeChange={[Function]}
+      theme="light"
+    />
+  </CustomFlex>
+</ThemeProvider>
+`;

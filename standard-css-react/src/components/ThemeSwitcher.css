@@ -1,0 +1,42 @@
+@import '../styles/variables.css';
+
+.theme-switcher {
+  margin: 2rem;
+  width: 4rem;
+  height: 2rem;
+
+  &__switch {
+    cursor: pointer;
+    text-indent: -999rem;
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 10rem;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 10%;
+      left: 5%;
+      width: 50%;
+      height: 80%;
+      background: var(--color-white);
+      border-radius: 50%;
+      transition: 0.5s;
+    }
+
+    &--light {
+      background: var(--color-sc-pink);
+    }
+
+    &--dark {
+      background: var(--color-grey);
+
+      &::after {
+        left: calc(100% - .5rem);
+        transform: translateX(-100%);
+      }
+    }
+  }
+}

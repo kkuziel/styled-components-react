@@ -1,0 +1,235 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dark theme renders correct HTML for dark theme 1`] = `
+.c0 {
+  margin: 2rem;
+  width: 4rem;
+  height: 2rem;
+}
+
+.c1 {
+  cursor: pointer;
+  text-indent: -999rem;
+  width: 100%;
+  height: 100%;
+  background: rgb(219,112,147);
+  display: block;
+  border-radius: 10rem;
+  position: relative;
+  background: grey;
+}
+
+.c1::after {
+  content: '';
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  width: 50%;
+  height: 80%;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.c1::after {
+  left: calc(100% - .5rem);
+  -webkit-transform: translateX(-100%);
+  -ms-transform: translateX(-100%);
+  transform: translateX(-100%);
+}
+
+<ThemeSwitcher
+  onThemeChange={[MockFunction]}
+  theme="dark"
+>
+  <ThemeSwitcherWrapper>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "ThemeSwitcherWrapper-wdxirp-0",
+            "isStatic": true,
+            "lastClassName": "c0",
+            "rules": Array [
+              "margin:2rem;width:4rem;height:2rem;",
+            ],
+          },
+          "displayName": "ThemeSwitcherWrapper",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "ThemeSwitcherWrapper-wdxirp-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+      >
+        <Switch
+          checked={true}
+          onClick={[MockFunction]}
+        >
+          <StyledComponent
+            checked={true}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Switch-wdxirp-1",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "cursor:pointer;text-indent:-999rem;width:100%;height:100%;background:",
+                    "rgb(219, 112, 147)",
+                    ";display:block;border-radius:10rem;position:relative;&::after{content:'';position:absolute;top:10%;left:5%;width:50%;height:80%;background:",
+                    "#fff",
+                    ";border-radius:50%;transition:0.5s;}",
+                    [Function],
+                  ],
+                },
+                "displayName": "Switch",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Switch-wdxirp-1",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onClick={[MockFunction]}
+          >
+            <div
+              checked={true}
+              className="c1"
+              onClick={[MockFunction]}
+            />
+          </StyledComponent>
+        </Switch>
+      </div>
+    </StyledComponent>
+  </ThemeSwitcherWrapper>
+</ThemeSwitcher>
+`;
+
+exports[`light theme renders correct HTML for light theme 1`] = `
+.c0 {
+  margin: 2rem;
+  width: 4rem;
+  height: 2rem;
+}
+
+.c1 {
+  cursor: pointer;
+  text-indent: -999rem;
+  width: 100%;
+  height: 100%;
+  background: rgb(219,112,147);
+  display: block;
+  border-radius: 10rem;
+  position: relative;
+}
+
+.c1::after {
+  content: '';
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  width: 50%;
+  height: 80%;
+  background: #fff;
+  border-radius: 50%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+<ThemeSwitcher
+  onThemeChange={[MockFunction]}
+  theme="light"
+>
+  <ThemeSwitcherWrapper>
+    <StyledComponent
+      forwardedComponent={
+        Object {
+          "$$typeof": Symbol(react.forward_ref),
+          "attrs": Array [],
+          "componentStyle": ComponentStyle {
+            "componentId": "ThemeSwitcherWrapper-wdxirp-0",
+            "isStatic": true,
+            "lastClassName": "c0",
+            "rules": Array [
+              "margin:2rem;width:4rem;height:2rem;",
+            ],
+          },
+          "displayName": "ThemeSwitcherWrapper",
+          "foldedComponentIds": Array [],
+          "render": [Function],
+          "styledComponentId": "ThemeSwitcherWrapper-wdxirp-0",
+          "target": "div",
+          "toString": [Function],
+          "warnTooManyClasses": [Function],
+          "withComponent": [Function],
+        }
+      }
+      forwardedRef={null}
+    >
+      <div
+        className="c0"
+      >
+        <Switch
+          checked={false}
+          onClick={[MockFunction]}
+        >
+          <StyledComponent
+            checked={false}
+            forwardedComponent={
+              Object {
+                "$$typeof": Symbol(react.forward_ref),
+                "attrs": Array [],
+                "componentStyle": ComponentStyle {
+                  "componentId": "Switch-wdxirp-1",
+                  "isStatic": false,
+                  "lastClassName": "c1",
+                  "rules": Array [
+                    "cursor:pointer;text-indent:-999rem;width:100%;height:100%;background:",
+                    "rgb(219, 112, 147)",
+                    ";display:block;border-radius:10rem;position:relative;&::after{content:'';position:absolute;top:10%;left:5%;width:50%;height:80%;background:",
+                    "#fff",
+                    ";border-radius:50%;transition:0.5s;}",
+                    [Function],
+                  ],
+                },
+                "displayName": "Switch",
+                "foldedComponentIds": Array [],
+                "render": [Function],
+                "styledComponentId": "Switch-wdxirp-1",
+                "target": "div",
+                "toString": [Function],
+                "warnTooManyClasses": [Function],
+                "withComponent": [Function],
+              }
+            }
+            forwardedRef={null}
+            onClick={[MockFunction]}
+          >
+            <div
+              checked={false}
+              className="c1"
+              onClick={[MockFunction]}
+            />
+          </StyledComponent>
+        </Switch>
+      </div>
+    </StyledComponent>
+  </ThemeSwitcherWrapper>
+</ThemeSwitcher>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<ContextProvider
+  value="light"
+>
+  <div
+    className="app app--light"
+  >
+    <Component />
+    <ThemeSwitcher
+      onThemeChange={[Function]}
+      theme="light"
+    />
+  </div>
+</ContextProvider>
+`;

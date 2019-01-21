@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dark theme renders correct HTML for dark theme 1`] = `
+<ThemeSwitcher
+  onThemeChange={[MockFunction]}
+  theme="dark"
+>
+  <div
+    className="theme-switcher"
+  >
+    <div
+      className="theme-switcher__switch theme-switcher__switch--dark"
+      onClick={[MockFunction]}
+    />
+  </div>
+</ThemeSwitcher>
+`;
+
+exports[`light theme renders correct HTML for light theme 1`] = `
+<ThemeSwitcher
+  onThemeChange={[MockFunction]}
+  theme="light"
+>
+  <div
+    className="theme-switcher"
+  >
+    <div
+      className="theme-switcher__switch theme-switcher__switch--light"
+      onClick={[MockFunction]}
+    />
+  </div>
+</ThemeSwitcher>
+`;

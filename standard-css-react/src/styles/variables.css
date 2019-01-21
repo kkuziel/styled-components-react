@@ -1,0 +1,21 @@
+:root {
+  --color-white: white;
+  --color-gradient1: #667db6;
+  --color-gradient2: #0082c8;
+  --color-gradient3: #0082c8;
+  --color-gradient4: #667db6;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-dark-grey: #222;
+  --color-darkest-grey: #111;
+  --color-grey: grey;
+  --color-palevioletred: palevioletred;
+  --color-sc-pink: rgb(219, 112, 147);
+  --color-sc-orange: rgb(218, 163, 87);
+  --color-alpha-black: rgba(0, 0, 0, 0.2);
+  --color-alpha-grey: rgba(20, 20, 20, 0.1);
+  --gradient-light: linear-gradient(to top right, rgb(219, 112, 147), rgb(218, 163, 87));
+  --gradient-dark: linear-gradient(to top right, #667db6, #0082c8, #0082c8);
+}
+
+@custom-media --desktop (min-width: 1024px);

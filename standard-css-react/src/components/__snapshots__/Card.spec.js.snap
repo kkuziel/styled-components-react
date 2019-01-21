@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correct HTML 1`] = `
+<Component>
+  <Card
+    theme="light"
+  >
+    <div
+      className="card"
+    >
+      <div
+        className="card__side card__side__front card__side__front--light"
+      >
+        <div
+          className="card__side__front__heading-wrapper"
+        >
+          <Heading
+            bottomColor="rgb(219, 112, 147)"
+            topColor="rgb(218, 163, 87)"
+          >
+            <svg
+              height="100%"
+              preserveAspectRatio="none"
+              viewBox="0 0 100 100"
+              width="100%"
+            >
+              <defs>
+                <linearGradient
+                  id="heading-linear-gradient"
+                  x1="-1%"
+                  x2="101%"
+                  y1="100%"
+                  y2="0%"
+                >
+                  <stop
+                    offset="0%"
+                    style={
+                      Object {
+                        "stopColor": "rgb(219, 112, 147)",
+                      }
+                    }
+                  />
+                  <stop
+                    offset="100%"
+                    style={
+                      Object {
+                        "stopColor": "rgb(218, 163, 87)",
+                      }
+                    }
+                  />
+                </linearGradient>
+              </defs>
+              <g>
+                <path
+                  d="M0 0 L0 100 L100 80 L100 0 Z"
+                  fill="url(#heading-linear-gradient)"
+                />
+              </g>
+            </svg>
+          </Heading>
+        </div>
+        <Component
+          alt="styled-components logo"
+          src="/images/sc-logo.png"
+        >
+          <Logo
+            alt="styled-components logo"
+            src="/images/sc-logo.png"
+            theme="light"
+          >
+            <img
+              alt="styled-components logo"
+              className="logo logo--light"
+              src="/images/sc-logo.png"
+              theme="light"
+            />
+          </Logo>
+        </Component>
+        <Details>
+          <ul
+            className="details"
+          >
+            <li
+              className="details__item"
+              key="Automatic critical CSS "
+            >
+              <span>
+                Automatic critical CSS 
+              </span>
+            </li>
+            <li
+              className="details__item"
+              key="No class name bugs"
+            >
+              <span>
+                No class name bugs
+              </span>
+            </li>
+            <li
+              className="details__item"
+              key="Easier deletion of CSS"
+            >
+              <span>
+                Easier deletion of CSS
+              </span>
+            </li>
+            <li
+              className="details__item"
+              key="Simple dynamic styling"
+            >
+              <span>
+                Simple dynamic styling
+              </span>
+            </li>
+            <li
+              className="details__item"
+              key="Painless maintenance"
+            >
+              <span>
+                Painless maintenance
+              </span>
+            </li>
+            <li
+              className="details__item"
+              key="Automatic vendor prefixing"
+            >
+              <span>
+                Automatic vendor prefixing
+              </span>
+            </li>
+          </ul>
+        </Details>
+        <div
+          className="card__side__front__buttons-bottom"
+        >
+          <Component
+            href="https://www.styled-components.com/docs/"
+            target="_blank"
+            variant="transparentDark"
+          >
+            <LinkButton
+              href="https://www.styled-components.com/docs/"
+              target="_blank"
+              theme="light"
+              variant="transparentDark"
+            >
+              <a
+                className="link-button link-button--transparentDark--light"
+                href="https://www.styled-components.com/docs/"
+                target="_blank"
+                theme="light"
+                variant="transparentDark"
+              >
+                Documentation
+              </a>
+            </LinkButton>
+          </Component>
+        </div>
+      </div>
+      <div
+        className="card__side card__side__back card__side__back--light"
+      >
+        <div
+          className="card__side__back__buttons-centered"
+        >
+          <Component
+            href="https://github.com/styled-components/styled-components"
+            target="_blank"
+          >
+            <LinkButton
+              href="https://github.com/styled-components/styled-components"
+              target="_blank"
+              theme="light"
+              variant="default"
+            >
+              <a
+                className="link-button link-button--default--light"
+                href="https://github.com/styled-components/styled-components"
+                target="_blank"
+                theme="light"
+                variant="default"
+              >
+                Github
+              </a>
+            </LinkButton>
+          </Component>
+          <Component
+            href="https://www.styled-components.com/docs/"
+            target="_blank"
+            variant="transparent"
+          >
+            <LinkButton
+              href="https://www.styled-components.com/docs/"
+              target="_blank"
+              theme="light"
+              variant="transparent"
+            >
+              <a
+                className="link-button link-button--transparent--light"
+                href="https://www.styled-components.com/docs/"
+                target="_blank"
+                theme="light"
+                variant="transparent"
+              >
+                Documentation
+              </a>
+            </LinkButton>
+          </Component>
+        </div>
+      </div>
+    </div>
+  </Card>
+</Component>
+`;

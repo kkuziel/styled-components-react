@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correct link with dark theme and default variant 1`] = `
+.c0 {
+  display: inline-block;
+  width: 20rem;
+  padding: .5rem 0;
+  margin: .5rem 1rem;
+  border-width: .2rem;
+  border-radius: .3rem;
+  border-style: solid;
+  border-image: initial;
+  cursor: pointer;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #000;
+  background: #fff;
+  border-color: #fff;
+  text-transform: uppercase;
+}
+
+<a
+  className="c0"
+  href="LINK"
+>
+  TEST
+</a>
+`;
+
+exports[`renders correct link with dark theme and transparent variant 1`] = `
+.c0 {
+  display: inline-block;
+  width: 20rem;
+  padding: .5rem 0;
+  margin: .5rem 1rem;
+  border-width: .2rem;
+  border-radius: .3rem;
+  border-style: solid;
+  border-image: initial;
+  cursor: pointer;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+  border-color: #fff;
+  text-transform: uppercase;
+}
+
+.c0:hover {
+  background: grey;
+}
+
+<a
+  className="c0"
+  href="LINK"
+>
+  TEST
+</a>
+`;
+
+exports[`renders correct link with dark theme and transparentDark variant 1`] = `
+.c0 {
+  display: inline-block;
+  width: 20rem;
+  padding: .5rem 0;
+  margin: .5rem 1rem;
+  border-width: .2rem;
+  border-radius: .3rem;
+  border-style: solid;
+  border-image: initial;
+  cursor: pointer;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+  border-color: #fff;
+  background: linear-gradient(to top right,#667db6,#0082c8,#667db6);
+  text-transform: uppercase;
+}
+
+<a
+  className="c0"
+  href="LINK"
+>
+  TEST
+</a>
+`;
+
+exports[`renders correct link with light theme and default variant 1`] = `
+.c0 {
+  display: inline-block;
+  width: 20rem;
+  padding: .5rem 0;
+  margin: .5rem 1rem;
+  border-width: .2rem;
+  border-radius: .3rem;
+  border-style: solid;
+  border-image: initial;
+  cursor: pointer;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: palevioletred;
+  border-color: #fff;
+  background: #fff;
+  text-transform: uppercase;
+}
+
+<a
+  className="c0"
+  href="LINK"
+>
+  TEST
+</a>
+`;
+
+exports[`renders correct link with light theme and transparent variant 1`] = `
+.c0 {
+  display: inline-block;
+  width: 20rem;
+  padding: .5rem 0;
+  margin: .5rem 1rem;
+  border-width: .2rem;
+  border-radius: .3rem;
+  border-style: solid;
+  border-image: initial;
+  cursor: pointer;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.c0:hover {
+  background: rgba(20,20,20,0.1);
+}
+
+<a
+  className="c0"
+  href="LINK"
+>
+  TEST
+</a>
+`;
+
+exports[`renders correct link with light theme and transparentDark variant 1`] = `
+.c0 {
+  display: inline-block;
+  width: 20rem;
+  padding: .5rem 0;
+  margin: .5rem 1rem;
+  border-width: .2rem;
+  border-radius: .3rem;
+  border-style: solid;
+  border-image: initial;
+  cursor: pointer;
+  text-align: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: #fff;
+  border-color: #fff;
+  background: linear-gradient(to top right,rgb(219,112,147),rgb(218,163,87));
+  text-transform: uppercase;
+}
+
+<a
+  className="c0"
+  href="LINK"
+>
+  TEST
+</a>
+`;

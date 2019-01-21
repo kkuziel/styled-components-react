@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`dark theme renders correct HTML 1`] = `
+<Component
+  alt="TEST_IMAGE"
+  src="TEST_URL"
+>
+  <Logo
+    alt="TEST_IMAGE"
+    src="TEST_URL"
+    theme="dark"
+  >
+    <img
+      alt="TEST_IMAGE"
+      className="logo logo--dark"
+      src="TEST_URL"
+      theme="dark"
+    />
+  </Logo>
+</Component>
+`;
+
+exports[`light theme renders correct HTML 1`] = `
+<Component
+  alt="TEST_IMAGE"
+  src="TEST_URL"
+>
+  <Logo
+    alt="TEST_IMAGE"
+    src="TEST_URL"
+    theme="light"
+  >
+    <img
+      alt="TEST_IMAGE"
+      className="logo logo--light"
+      src="TEST_URL"
+      theme="light"
+    />
+  </Logo>
+</Component>
+`;

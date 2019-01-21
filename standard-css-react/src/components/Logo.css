@@ -1,0 +1,35 @@
+@import '../styles/variables.css';
+
+.logo {
+  position: absolute;
+  top: 5rem;
+  left: 30%;
+  width: 40%;
+  animation: logoAnimation 4s linear infinite;
+
+  &--light {
+    background: var(--gradient-light);
+  }
+
+  &--dark {
+    background: var(--gradient-dark);
+  }
+}
+
+@keyframes logoAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(-5deg);
+  }
+}

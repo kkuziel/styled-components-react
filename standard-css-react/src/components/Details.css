@@ -1,0 +1,18 @@
+@import '../styles/variables.css';
+
+.details {
+  list-style: none;
+  padding: 0 4rem;
+  margin: 4rem auto .6rem;
+
+  &__item {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 1rem;
+    color: var(--color-dark-grey);
+
+    &:not(:last-child) {
+      border-bottom: 1px solid var(--color-alpha-black);
+    }
+  }
+}

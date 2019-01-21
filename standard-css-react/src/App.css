@@ -1,0 +1,24 @@
+
+@import './styles/variables.css';
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  min-height: 56rem;
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &--light {
+    background: var(--color-sc-orange);
+  }
+
+  &--dark {
+    background: linear-gradient(to top right, var(--color-gradient1), var(--color-gradient2), var(--color-gradient3), var(--color-gradient4));
+  }
+
+  @media (--desktop) {
+    padding-top: 6rem;
+  }
+}
