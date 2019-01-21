@@ -1,8 +1,8 @@
 {
-  "main.js": "styled-components-react/build/static/js/main.672f2634.chunk.js",
-  "static/js/1.96991cbb.chunk.js": "styled-components-react/build/static/js/1.96991cbb.chunk.js",
-  "runtime~main.js": "styled-components-react/build/static/js/runtime~main.9be98ac1.js",
-  "index.html": "styled-components-react/build/index.html",
-  "precache-manifest.4c54a21f02dc48534f56449ec20d8542.js": "styled-components-react/build/precache-manifest.4c54a21f02dc48534f56449ec20d8542.js",
-  "service-worker.js": "styled-components-react/build/service-worker.js"
+  "main.js": "/static/js/main.672f2634.chunk.js",
+  "static/js/1.63d5ea33.chunk.js": "/static/js/1.63d5ea33.chunk.js",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "index.html": "/index.html",
+  "precache-manifest.746c07c3eac77434539469595c6fd5ef.js": "/precache-manifest.746c07c3eac77434539469595c6fd5ef.js",
+  "service-worker.js": "/service-worker.js"
 }
