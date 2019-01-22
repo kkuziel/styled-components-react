@@ -1,3 +1,5 @@
+import { keyframes } from 'styled-components';
+
 export const COLORS = {
   gradient1: '#667db6',
   gradient2: '#0082c8',
@@ -31,4 +33,26 @@ export const GRADIENTS = {
 
 export const BREAKPOINTS = {
   desktop: '(min-width: 1024px)',
+};
+
+const sway = keyframes`
+  0% {
+    transform: rotate(0deg);
+  }
+
+  25% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(0deg);
+  }
+
+  75% {
+    transform: rotate(-5deg);
+  }
+`;
+
+export const ANIMATIONS = {
+  sway,
 };
