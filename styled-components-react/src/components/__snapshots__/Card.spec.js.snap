@@ -87,7 +87,7 @@ exports[`renders correct HTML 1`] = `
   width: 40%;
   -webkit-animation: drfsvC 4s linear infinite;
   animation: drfsvC 4s linear infinite;
-  background-image: linear-gradient(to top right,rgb(219,112,147),rgb(218,163,87));
+  background: linear-gradient(to top right,rgb(219,112,147),rgb(218,163,87));
 }
 
 .c2 {
@@ -376,7 +376,7 @@ exports[`renders correct HTML 1`] = `
                                   ],
                                   "toString": [Function],
                                 },
-                                " 4s linear infinite;background-image:",
+                                " 4s linear infinite;background:",
                                 [Function],
                                 ";",
                               ],

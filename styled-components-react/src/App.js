@@ -47,16 +47,16 @@ class App extends Component {
     const { theme } = this.state;
 
     return (
-      <ThemeProvider theme={{ mode: theme }}>
-        <Fragment>
-          <Normalize />
-          <Global />
+      <Fragment>
+        <Normalize />
+        <Global />
+        <ThemeProvider theme={{ mode: theme }}>
           <CustomFlex>
             <Card />
             <ThemeSwitcher onThemeChange={this.handleThemeChange} theme={theme} />
           </CustomFlex>
-        </Fragment>
-      </ThemeProvider>
+        </ThemeProvider>
+      </Fragment>
     );
   }
 }

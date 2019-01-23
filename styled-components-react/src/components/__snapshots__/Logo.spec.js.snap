@@ -8,7 +8,7 @@ exports[`dark theme renders correct HTML 1`] = `
   width: 40%;
   -webkit-animation: drfsvC 4s linear infinite;
   animation: drfsvC 4s linear infinite;
-  background-image: linear-gradient(to top right,#667db6,#0082c8,#667db6);
+  background: linear-gradient(to top right,#667db6,#0082c8,#667db6);
 }
 
 <img
@@ -26,7 +26,7 @@ exports[`light theme renders correct HTML 1`] = `
   width: 40%;
   -webkit-animation: drfsvC 4s linear infinite;
   animation: drfsvC 4s linear infinite;
-  background-image: linear-gradient(to top right,rgb(219,112,147),rgb(218,163,87));
+  background: linear-gradient(to top right,rgb(219,112,147),rgb(218,163,87));
 }
 
 <img

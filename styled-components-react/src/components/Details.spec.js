@@ -15,6 +15,7 @@ const mockComponent = theme => (
     </Details>
   </ThemeProvider>
 );
+
 [
   THEMES.light,
   THEMES.dark,
@@ -27,8 +28,10 @@ const mockComponent = theme => (
       expect(cmp.children.length).toEqual(3);
     });
 
-    test('should list item have correct font size', () => {
-      expect(cmp.children[0]).toHaveStyleRule('font-size', '1.4rem');
+    test('should list items have correct font size', () => {
+      cmp.children.forEach((item, idx) => {
+        expect(cmp.children[idx]).toHaveStyleRule('font-size', '1.4rem');
+      });
     });
   });
 });
