@@ -30,7 +30,7 @@ const defaultProps = {
 };
 
 const LinkButton = (props) => {
-  const { theme, variant } = props;
+  const { theme, variant, children } = props;
   const classNames = cx(
     [`${ns}`],
     {
@@ -39,7 +39,6 @@ const LinkButton = (props) => {
     },
   );
 
-  const { children } = props;
   return <a className={classNames} {...props}>{children}</a>;
 };
 

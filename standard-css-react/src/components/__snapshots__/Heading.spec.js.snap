@@ -10,8 +10,8 @@ exports[`renders correct HTML with custom colors 1`] = `
   <defs>
     <linearGradient
       id="heading-linear-gradient"
-      x1="-1%"
-      x2="101%"
+      x1="0%"
+      x2="100%"
       y1="100%"
       y2="0%"
     >
@@ -52,8 +52,8 @@ exports[`renders correct HTML with default colors 1`] = `
   <defs>
     <linearGradient
       id="heading-linear-gradient"
-      x1="-1%"
-      x2="101%"
+      x1="0%"
+      x2="100%"
       y1="100%"
       y2="0%"
     >

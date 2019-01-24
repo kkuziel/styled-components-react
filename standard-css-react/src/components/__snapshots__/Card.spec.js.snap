@@ -27,8 +27,8 @@ exports[`renders correct HTML 1`] = `
               <defs>
                 <linearGradient
                   id="heading-linear-gradient"
-                  x1="-1%"
-                  x2="101%"
+                  x1="0%"
+                  x2="100%"
                   y1="100%"
                   y2="0%"
                 >

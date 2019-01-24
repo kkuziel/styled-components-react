@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`dark theme renders correctly child elements  1`] = `
+exports[`dark theme renders correctly child elements 1`] = `
 <Details>
   <ul
     className="details"
@@ -33,7 +33,7 @@ exports[`dark theme renders correctly child elements  1`] = `
 </Details>
 `;
 
-exports[`light theme renders correctly child elements  1`] = `
+exports[`light theme renders correctly child elements 1`] = `
 <Details>
   <ul
     className="details"

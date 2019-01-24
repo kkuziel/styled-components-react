@@ -25,7 +25,7 @@ const renderComponent = ({
   const cmp = renderComponent({ theme });
 
   describe(`${theme} theme`, () => {
-    test('renders correctly child elements ', () => {
+    test('renders correctly child elements', () => {
       expect(cmp).toMatchSnapshot();
       expect(cmp.find('li')).toHaveLength(3);
     });
