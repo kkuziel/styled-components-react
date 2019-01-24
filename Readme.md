@@ -1,6 +1,6 @@
 # Styling React app with styled components.
 
-This repository is an addition to a article. It shows common usage of styled-components in React app.
+This repository is an addition to an article. It shows common usage of styled-components in React app.
 You can compare styled components (Styled-Components-React) with standard css approach (Standard-Css-React).
 
 [live example](https://kodernpl.github.io/styled-components-react/)
