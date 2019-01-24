@@ -17,8 +17,7 @@ const renderComponent = ({
 );
 
 test('renders correct HTML', () => {
-  const cmp = renderComponent({});
-  expect(cmp).toMatchSnapshot();
+  expect(renderComponent({})).toMatchSnapshot();
 });
 
 [
@@ -26,9 +25,9 @@ test('renders correct HTML', () => {
   { theme: THEMES.dark, bottomColor: '#667db6', topColor: '#0082c8' },
 ].forEach(({ theme, bottomColor, topColor }) => {
   test(`should Heading have correct props for ${theme} theme`, () => {
-    const cmp = renderComponent({ theme });
+    const headingProps = renderComponent({ theme }).find('Heading').props();
 
-    expect(cmp.find('Heading').props().bottomColor).toEqual(bottomColor);
-    expect(cmp.find('Heading').props().topColor).toEqual(topColor);
+    expect(headingProps.bottomColor).toEqual(bottomColor);
+    expect(headingProps.topColor).toEqual(topColor);
   });
 });

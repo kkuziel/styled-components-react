@@ -25,9 +25,8 @@ const renderComponent = ({
   THEMES.dark,
 ].forEach((theme) => {
   describe(`${theme} theme`, () => {
-    const cmp = renderComponent({ theme });
     test('renders correct HTML', () => {
-      expect(cmp).toMatchSnapshot();
+      expect(renderComponent({ theme })).toMatchSnapshot();
     });
   });
 });

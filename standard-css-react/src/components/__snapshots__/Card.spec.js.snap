@@ -61,17 +61,17 @@ exports[`renders correct HTML 1`] = `
         </div>
         <Component
           alt="styled-components logo"
-          src="/images/sc-logo.png"
+          src="images/sc-logo.png"
         >
           <Logo
             alt="styled-components logo"
-            src="/images/sc-logo.png"
+            src="images/sc-logo.png"
             theme="light"
           >
             <img
               alt="styled-components logo"
               className="logo logo--light"
-              src="/images/sc-logo.png"
+              src="images/sc-logo.png"
               theme="light"
             />
           </Logo>
